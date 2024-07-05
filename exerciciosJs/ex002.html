@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+         var nome = prompt("Escreva seu nome");
+         var anodeNasc = prompt("Escreva seu ano de nascimento: ");
+         var idadeAtual = 2024 - anodeNasc;
+         window.alert("Vc tem: " + idadeAtual + " anos");
+         window.alert("Seu nome é: " + nome);
+
+        var nota1 = prompt("Escreva a primeira nota");
+        var nota2 = prompt("Escreva a segunda nota");
+        var nota3 = prompt("Escreva a terceira nota");
+        
+        var media = (parseFloat(nota1)+ parseFloat(nota2) + parseFloat(nota3)) /3
+        if(media<40){
+            window.alert(media + " você está reprovado")
+        }else if(media>=40 && media <60 ) {
+            window.alert("" + media + ".Você está de recuperação")
+
+
+        }else{
+            window.alert(media + " Você está aprovado")
+        }
+
+        
+        // window.alert é só para exibir o resultado
+        //% é resto n porcentagem
+        //=== para saber se o nome e o tipo está igual
+        //so para saber se o valor da variavel é igual
+       
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
